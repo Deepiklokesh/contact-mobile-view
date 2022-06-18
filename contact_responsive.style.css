@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(
+    220deg,
+    #180000,
+    #1c0011 15%,
+    #210126 36%,
+    #0d0125 75%
+  );
+  letter-spacing: 0.02rem;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+/* 
+ */ */
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.container {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0 5%;
+  color: rgba(255, 255, 255, .8);
+}
+
+.header_container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.contact_menu
+{
+  color:#fff;
+  font-size:20px;
+}
+.contact-title{
+  font-weight: 200;
+ font-size: 85px;
+ line-height: 120px;
+ width: 100%;
+ font-style: normal;
+ color: #0e87c1;
+}
+.contact-para {
+  color: rgba(255, 255, 255, 0.5);
+  font-style: light;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: left;
+}
+.contact-form{
+  width: 695px;
+  top: 586px;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-form-wrapper {
+	width: 100%;
+  align:left;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 45px;
+	color: rgba(255, 255, 255, 0.5);
+  }
+  input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(254, 254, 254, 0.6);
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    width: 100%;
+  }
+  textarea {
+    background: transparent;
+    border: 1px solid rgba(254, 254, 254, 0.6);
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 1rem;
+  
+    padding: 1rem;
+    resize: none;
+    width: 100%;
+  }
+  .btn {
+    background: linear-gradient(270deg, #0e87c1, #500ec1);
+    border: none;
+    color: rgba(255, 255, 255, .8) !important;
+    padding: 0 !important;
+    border-radius: 40.25rem !important;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2rem;
+    }
+ .btn-inner {
+    background-color: rgba(13, 1, 37, .9);
+    border-radius: 33px;
+    display: inline-block;
+    margin: 2px; 
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+   
+    }
+.footer {
+    border-top: 2px solid rgba(14,135,193,.65);
+    margin-top: 60px;
+}
+.footer_icon
+{
+  color:#fff;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  color:White;
+  margin-top: 12px;
+  align:left;
+}
+.policy{
+  margin-left: 40px;;
+}
+
+
+@media only screen and (max-width: 576px) {
+
